@@ -1,8 +1,9 @@
 # CSC480_FishProject
 
-### Installation & Activation
+### Installation & Activation for [Mac](https://github.com/kirstenloechl/CSC480_FishProject#mac) and [Windows](https://github.com/kirstenloechl/CSC480_FishProject#windows)
 
 There is a virtual environment already setup with tensorflow and keras installed on it. So you must also have **python3, pip3, and virtualenv** installed to run it.
+
 #### Mac
 ###### To Install the Python development environment on *Mac*
 1. Check if your Python environment is already configured:
