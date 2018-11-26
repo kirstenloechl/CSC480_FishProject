@@ -120,6 +120,11 @@ If you wish to supply other JPEG images, you may do so by editing the --image_fi
 If you download the model data to a different directory, you will need to point --model_dir to the directory used.
 ```
 
+To update the requirements text file use:
+```sh
+(venv) $ pip freeze > requirements.txt
+```
+
 ### Todos
 - Import dataset
 - Setup CNN
