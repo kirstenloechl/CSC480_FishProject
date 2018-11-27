@@ -102,8 +102,6 @@ earthstar (score = 0.00127)
 If you wish to supply other JPEG images, you may do so by editing the --image_file argument.
 ```
 If you download the model data to a different directory, you will need to point --model_dir to the directory used.
-```### Image Recognition Example 
-```sh
 (venv) $ cd models/tutorials/image/imagenet
 (venv) $ python classify_image.py
 ```
@@ -115,17 +113,13 @@ lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens (score = 0.0
 custard apple (score = 0.00149)
 earthstar (score = 0.00127)
 ```
-If you wish to supply other JPEG images, you may do so by editing the --image_file argument.
-```
-If you download the model data to a different directory, you will need to point --model_dir to the directory used.
-```
-
 To update the requirements text file use:
 ```sh
 (venv) $ pip freeze > requirements.txt
 ```
 
 ### Todos
-- Import dataset
-- Setup CNN
-- Train model 
+- ~~Import dataset~~
+- ~~Setup CNN~~
+- ~~Train model~~ 
+- Deploy model to DeepLens for real-time identification
